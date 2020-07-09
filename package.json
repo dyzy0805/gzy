@@ -1,13 +1,13 @@
 {
   "name": "git-fasthand-niubi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A git shorthand by nodejs",
   "main": "index.js",
   "scripts": {
     "ganta": "node ./bin/ganta"
   },
   "bin": {
-    "tijiao": "node ./bin/ganta"
+    "tijiao": "bin/ganta"
   },
   "repository": {
     "type": "git",
