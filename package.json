@@ -1,0 +1,22 @@
+{
+  "name": "gzy",
+  "version": "1.0.0",
+  "description": "A git shorthand by nodejs",
+  "main": "index.js",
+  "scripts": {
+    "eee": "node ./bin/ganta"
+  },
+  "bin": {
+    "eee": "node ./bin/ganta"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyzy0805/gzy.git"
+  },
+  "author": "dongyue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyzy0805/gzy/issues"
+  },
+  "homepage": "https://github.com/dyzy0805/gzy#readme"
+}
