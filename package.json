@@ -4,10 +4,10 @@
   "description": "A git shorthand by nodejs",
   "main": "index.js",
   "scripts": {
-    "eee": "node ./bin/ganta"
+    "ganta": "node ./bin/ganta"
   },
   "bin": {
-    "eee": "node ./bin/ganta"
+    "tijiao": "node ./bin/ganta"
   },
   "repository": {
     "type": "git",
