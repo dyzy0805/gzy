@@ -1,5 +1,5 @@
 {
-  "name": "gzy",
+  "name": "git-fasthand-niubi",
   "version": "1.0.0",
   "description": "A git shorthand by nodejs",
   "main": "index.js",
