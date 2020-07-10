@@ -7,7 +7,7 @@
     "ganta": "node ./bin/ganta"
   },
   "bin": {
-    "tijiao": "bin/ganta"
+    "gzn": "bin/ganta"
   },
   "repository": {
     "type": "git",
