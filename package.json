@@ -1,6 +1,6 @@
 {
   "name": "git-fasthand-niubi",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A git shorthand by nodejs",
   "main": "index.js",
   "scripts": {
