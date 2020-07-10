@@ -3,10 +3,9 @@
  * @Author: dongyue
  * @CreateDate: 
  * @LastEditors: dongyue
- * @LastEditTime: 2020-07-09 17:30:58
+ * @LastEditTime: 2020-07-10 14:28:18
  */ 
 const { execSync, spawn } = require('child_process');
-const fs = require('fs');
 
 module.exports = function (needPush) {
     try {
