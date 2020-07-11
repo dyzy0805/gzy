@@ -3,7 +3,7 @@
  * @Author: dongyue
  * @CreateDate: 
  * @LastEditors: dongyue
- * @LastEditTime: 2020-07-10 14:28:18
+ * @LastEditTime: 2020-07-11 16:05:47
  */ 
 const { execSync, spawn } = require('child_process');
 
@@ -19,7 +19,8 @@ module.exports = function (needPush) {
     execSync('git add .'); // 执行git add .
     
     /** argv用于取启动本次命令时，加的参数，是个数组，第一个值为process.execPath， 第二个元素为执行的文件路径，后面的参数是正常参数 */
-    let msg = process.argv[2] || 'update'; // 取message
+    const option = process.argv[2] || 'feat';
+    const msg = `${option}: ${process.argv[3] || 'update'}`; // 取message
     
     const gm = spawn('git', ['commit', '-m', msg]); // spawn创建子进程进行操作，与exec不同的是，会返回stdout或stderr流，且大小没有限制，exec限制200k
 
