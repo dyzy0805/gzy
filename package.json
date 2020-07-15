@@ -4,10 +4,12 @@
   "description": "A git shorthand by nodejs",
   "main": "index.js",
   "scripts": {
-    "ganta": "node ./bin/ganta"
+    "ganta": "node ./bin/ganta",
+    "nongta": "node ./bin/nongta"
   },
   "bin": {
-    "gzn": "bin/ganta"
+    "gzn": "bin/ganta",
+    "gzn-d": "bin/nongta"
   },
   "repository": {
     "type": "git",
