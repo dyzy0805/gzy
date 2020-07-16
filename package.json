@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "ganta": "node ./bin/ganta",
-    "nongta": "node ./bin/nongta"
+    "nongta": "node ./bin/nongta",
+    "zaota": "node ./bin/zaota"
   },
   "bin": {
     "gzn": "bin/ganta",
-    "gzn-d": "bin/nongta"
+    "gzn-d": "bin/nongta",
+    "gzn-c": "bin/zaota"
   },
   "repository": {
     "type": "git",
