@@ -11,7 +11,8 @@
   "bin": {
     "gzn": "bin/ganta",
     "gzn-d": "bin/nongta",
-    "gzn-c": "bin/zaota"
+    "gzn-c": "bin/zaota",
+    "gzn-p": "bin/fata"
   },
   "repository": {
     "type": "git",
